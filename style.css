@@ -624,13 +624,15 @@ input {
     font-size: 10px;
 }
 
-.pagination_sect {
+.pagination_sect,
+.last_pgnt {
     flex-direction: column;
     margin: 0 auto;
 }
 
 .pagination_sect .container,
-.pagination_sect .pgn_btn {
+.pagination_sect .pgn_btn,
+.last_pgnt .container {
     display: flex;
     justify-content: center;
     margin-bottom: 35px;
@@ -653,7 +655,11 @@ input {
 .pgnt_first,
 .pgnt_second,
 .pgnt_third,
-.pgnt_fourth {
+.pgnt_fourth,
+.first_pgnt,
+.second_pgnt,
+.third_pgnt,
+.fourth_pgnt {
     width: 21.5%;
     border: 1px solid #d9d9d9;
     margin-bottom: 35px;
@@ -735,7 +741,9 @@ input {
 }
 
 .cont_left,
-.footer_left {
+.footer_left,
+.first_pgnt,
+.third_pgnt {
     background-color: #F7931E;
     color: #ffffff;
 }
@@ -766,4 +774,29 @@ input {
 
 .footer_right h3 {
     margin-bottom: 20px;
+}
+
+.last_pgnt .container {
+    margin-bottom: 65px;
+}
+
+.last_pgnt .logo_big {
+    margin: 30px 65px 5px;
+}
+
+.first_pgnt,
+.second_pgnt,
+.third_pgnt,
+.fourth_pgnt {
+    text-align: center;
+    margin-right: 13.5px;
+}
+
+.fourth_pgnt {
+    margin-right: 0;
+}
+
+.last_pgnt .sect_text {
+    width: 97%;
+    margin-bottom: 35px;
 }
