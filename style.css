@@ -800,3 +800,39 @@ input {
     width: 97%;
     margin-bottom: 35px;
 }
+
+.footer_part {
+    display: flex;
+    justify-content: flex-start;
+    height: 225px;
+}
+
+.company_bottom {
+    display: flex;
+    color: #ffffff;
+    max-height: 114px;
+    margin: 40px 20px 0 100px;
+}
+
+.nav_footer {
+    font-weight: 600;
+    letter-spacing: -1px;
+    font-size: 12px;
+    max-height: 70px;
+    margin-top: 55px;
+}
+
+.nav_footer .dropdown-menu {
+    background-color: #F7931E;
+}
+
+.nav_footer .dropdown-item {
+
+    text-align: left;
+}
+
+.nav_footer .dropdown-item:hover,
+.nav_footer .dropdown-item:active {
+    background-color: #F7931E;
+    color: #ffffff;
+}
