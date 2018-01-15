@@ -29,26 +29,26 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-weight: bolder;
-    font-size: 62px;
+    font-size: 4em;
 }
 
 h2 {
-    font-size: 38px;
-    letter-spacing: -3px;
+    font-size: 2.3em;
+    letter-spacing: -0.07em;
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 1.6em;
     font-weight: bold;}
 
 h4 {
-    font-size: 23px;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
 p {
-    font-size: 11px;
-    line-height: 11px;
+    font-size: 1em;
+    line-height: 1em;
     font-weight: 500;
 }
 
@@ -60,10 +60,11 @@ a {
     background-color: #F7931E;
     color: #ffffff;
     border-color: #F7931E;
-    width: 160px;
+    width: 10em;
     border-radius: 1.25em   ;
 }
 
+.btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
     background-color: #ffffff;
@@ -75,15 +76,20 @@ a {
     background-color: #ffffff;
     color: #F7931E;
     border-color: #F7931E;
-    width: 160px;
+    width: 10em;
     border-radius: 1.25em   ;
 }
 
+.btn-secondary:active,
 .btn-secondary:focus,
 .btn-secondary:hover {
     background-color: #F7931E;
     color: #ffffff;
-    border-color: #F7931E;
+    border-color: #ffffff;
+}
+
+.header {
+    position: relative;
 }
 
 .top_part {
@@ -93,20 +99,21 @@ a {
 .company {
     position: absolute;
     display: flex;
-    max-height: 114px;
+    max-height: 53%;
+    width: 76%;
     color: #ffffff;
-    left: 110px;
-    top: 32px;
+    left: 8.2%;
+    top: 15%;
 }
 
 .company > h2 {
     font-weight: lighter;
-    margin: 22px 0 0 74px;
-    word-spacing: 7px;
+    margin: 2% 0 0 8%;
+    word-spacing: 0.1em;
 }
 
 .bgr_color {
-    height: 215px;
+    height: 13.5em;
     background-color: #F7931E;
 }
 
@@ -115,31 +122,31 @@ a {
 }
 
 .logo_text {
-    margin: 20px 10px;
+    margin: 2% 1%;
 }
 
 .logo_text h2 {
     font-weight: bolder;
-    font-size: 40px;
-    margin-bottom: 9px;
+    font-size: 2.5em;
+    margin-bottom: 4.5%;
 }
 
 .logo_text p {
-    font-size: 12px;
-    margin: -16px 0 0 1px;
+    font-size: 0.75em;
+    margin: -8% 0 0 1%;
 }
 
 .logo_small {
-    max-width: 60px;
+    max-width: 4em;
 }
 
 .nav_header {
-    left: 460px;
-    top: 165px;
+    left: 34%;
+    top: 77%;
     display: inline-flex;
     font-weight: 600;
-    letter-spacing: -1px;
-    font-size: 12px;
+    letter-spacing: -0.07em;
+    font-size: 0.75em;
     position: absolute;
 }
 
@@ -192,30 +199,31 @@ nav {
 }
 
 .bottom_part {
-    margin: -323px 0 0;
+    margin: -20.5em 0 0;
 }
 
 .logo_medium {
-    height: 150px;
+    height: 10em;
 }
 
 .second_logo {
     display: flex;
     justify-content: center;
     position: absolute;
-    margin: 322px 0 0 243px;
+    top: 150%;
+    left: 18%;
 }
 
 .bpart_text {
-    margin: 22px 18px;
-    letter-spacing: -4px;
+    margin: 6% 5%;
+    letter-spacing: -0.3em;
     color: #ffffff;
 }
 
 .bpart_text p {
-    margin: -9px 0 0 3px;
-    letter-spacing: -0.5px;
-    font-size: 20px;
+    margin: -4% 0 0 1%;
+    letter-spacing: -0.05em;
+    font-size: 1.3em;
 }
 
 .info {
@@ -224,87 +232,89 @@ nav {
 }
 
 .info h1 {
-    letter-spacing: -5px;
+    letter-spacing: -0.08em;
     color: #666666;
 }
 
 .top_info {
-    margin: 37px auto 0;
+    margin: 3% auto 0;
 }
 
 .info .rocket {
     background-image: url("images/rocket.jpg");
     background-size: cover;
     background-position: center;
-    height: 284px;
-    width: 450px;
-    margin: 30px auto 0;
+    height: 67%;
+    width: 28em;
+    margin: 6% auto 0;
 }
 
 .site_img {
-    margin-right: 38px;
+    margin-right: 3%;
 }
 
 .site_info {
-    margin-left: -30px;
+    margin-left: -2.5%;
 }
 
 .quote {
     background-color: #F2F2F2;
-    font-size: 13px;
-    position: relative;
-    width: 450px;
-    text-align: start;
+    font-size: 0.7em;
+    width: 93%;
 }
 
 .quote p {
-    margin: 0 30px;
+    margin: 0 7.5%;
     font-weight: 500;
-    line-height: 14px;
 }
 
 .left_q {
-    margin: 12px 0 0 12px;
-    width: 17px;
+    margin: 3% 0 0 3%;
+    width: 4%;
 }
 
 .right_q {
-    margin: 0 0 7px 420px;
-    width: 17px;
+    margin: 0 0 3% 93%;
+    width: 4%;
 }
 
 .text_info {
-    width: 484px;
+    width: 30em;
     @include flexbox();
 }
 
 .text_info h2 {
-    width: 370px;
+    width: 61%;
     color: #666666;
-    margin: 28px 0 0;
-    line-height: 36px;
+    margin: 5% 0 0;
+    line-height: 1em;
 }
 
 .text_info p {
-    font-size: 11px;
-    margin-top: 28px;
-    line-height: 11px;
+    font-size: 0.7em;
+    margin-top: 7%;
     font-weight: 500;
+}
+
+.text_info p:nth-child(4),
+.text_info p:nth-child(2n+1){
+    margin-top: 0;
 }
 
 .questions {
     display: flex;
     justify-content: space-around;
-    margin-top: 45px;
+    margin-top: 4%;
 }
 
 .questions ul,
 .questions ol {
-    padding-left: 26px;
+    padding-left: 1em;
 }
 
 .questions ul li {
     color: #F7931E;
+    margin-left: 8%;
 }
 
 .questions ol {
@@ -313,58 +323,57 @@ nav {
 }
 
 .questions ol li {
-    font-size: 12px;
-    font-weight: 500;
     font-style: italic;
 }
 
 .questions ol li:before {
     content: counter(item) ') ';
     counter-increment: item;
+    font-size: 0.8em;
+    font-weight: 500;
 }
 
 .questions span {
-    font-size: 11px;
+    font-size: 0.7em;
     font-weight: 500;
     font-style: italic;
-    line-height: 12px;
+    line-height: 0.7em;
     margin: 0;
-    word-spacing: -1px;
+    word-spacing: -0.05em;
     color: #000000;
 }
 
 .q_left {
-    margin: 0 40px 0 90px;
+    margin: 0 4em 0 3em;
 }
 
 .q_right {
-    margin-right: 100px;
-    width: 436px;
+    margin-right: 7em;
+    width: 28em;
 }
 
 .feedback_section {
     display: flex;
     justify-content: space-evenly;
-    margin: 35px 0;
+    margin: 3% 0;
 }
 
 .feedback_section .container {
-    padding-left: 50px;
+    padding-left: 3.5%;
 }
 
 .some_information {
-    width: 570px;
+    width: 54%;
 }
 
 .some_information h3 {
-    letter-spacing: -2px;
+    letter-spacing: -0.05em;
     color: #666666;
 }
 
 .some_information p {
-    font-size: 11px;
-    margin-top: 28px;
-    line-height: 11px;
+    font-size: 0.7em;
+    margin-top: 6%;
     font-weight: 500;
 }
 
@@ -373,16 +382,16 @@ nav {
 }
 
 .feedback {
-    width: 340px;
-    height: 232px;
+    width: 31%;
+    height: 14.5em;
     text-align: center;
     border: 1px solid #d9d9d9;
-    box-shadow: 0px 6px 7px 1px #d9d9d9;
+    box-shadow: 0 0.4em 0.4em 0.1em #d9d9d9;
 }
 
 .feedback h4 {
     color: #666666;
-    margin: 20px 0;
+    margin: 6% 0;
 }
 
 .feedback_form {
@@ -393,8 +402,8 @@ nav {
 }
 
 .form-group {
-    width: 300px;
-    left: 60px;
+    width: 18.5em;
+    left: 3.5em;
     position: relative;
 }
 
@@ -412,12 +421,12 @@ input {
 }
 
 .button_send {
-    margin-left: 80px;
+    margin-left: 34%;
 }
 
 .info_section {
     width: 76.5%;
-    margin: 0 auto 35px;
+    margin: 0 auto;
 }
 
 .info_section .container,
@@ -429,15 +438,15 @@ input {
 .info_section span,
 .pagination_sect span {
     font-weight: bold;
-    font-size: 11px;
+    font-size: 0.7em;
 }
 
 .info_section .part_name,
 .pagination_sect .part_name {
     background-color: #d9d9d9;
-    font-size: 12px;
-    padding: 2px 15px;
-    margin-left: 25px;
+    font-size: 0.7em;
+    padding: 0.3% 2.5%;
+    margin-left: 4%;
 }
 
 .header_sect,
@@ -451,25 +460,33 @@ input {
     display: flex;
     justify-content: flex-start;
     border: 1px solid #d9d9d9;
-    margin-bottom: 35px;
+    margin-bottom: 3.5%;
 }
 
 .header_sect img{
-    width: 345px;
-    height: 230px;
-    margin-right: 50px;
+    width: 33.5%;
+    height: 16em;
+    margin-right: 3%;
+}
+
+.header_sect .info_links {
+    max-height: 2.4em;
+}
+
+.header_sect .nav_links {
+    width: 40%;
 }
 
 .sect_text {
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 .sect_text h5 {
-    margin: 20px 0 25px;
+    margin: 3% 0 3.5%;
 }
 
 .sect_text p {
-    margin-bottom: 25px;
+    margin-bottom: 4%;
 }
 
 .info_links {
@@ -478,15 +495,18 @@ input {
 }
 
 .nav_links {
-    margin-top: 13px;
-    margin-left: 185px;
-    font-size: 12px;
+    margin-top: 3%;
+    font-size: 0.7em;
     font-weight: bold;
 }
 
 .nav_links > .nav_button {
-    margin: 0 10px;
+    margin: 0 4%;
     color: #000000;
+}
+
+.nav_links > .active_btn {
+    color: #F7931E;
 }
 
 .nav_links > .nav_button:hover,
@@ -505,31 +525,46 @@ input {
     width: 49.5%;
 }
 
+.left_sect .nav_button {
+    margin: 0 9%;
+}
+
 .left_sect .sect_text {
-    padding-top: 10px;
-    margin: 0 -65px 0;
-    padding-left: 28px;
+    padding-top: 2.5%;
+    margin: 0 -13% 0;
+    padding-left: 5%;
+    max-width: 52%;
     background-color: #ffffff;
 }
 
-.left_sect h5,
+.left_sect .part_name {
+    margin-left: 11.5%;
+    padding: 0.7% 6.4%;
+}
+
+.left_sect h5 {
+    max-width: 11.5em;
+    margin: 7% 0;
+}
+
 .left_sect p {
-    width: 230px;
+    max-width: 15.5em;
+    margin: 12% 0;
 }
 
 .left_sect .nav_links {
-    margin: 13px 0 20px -10px;
+    margin: 5% 0 8% -4%;
     display: inline-flex;
 }
 
 .left_sect img{
-    width: 300px;
+    width: 60.5%;
     height: 100%;
 }
 
 .right_sect {
     border: 1px solid #d9d9d9;
-    margin-bottom: 35px;
+    margin-bottom: 3.5%;
     width: 49.5%;
     background: linear-gradient(180deg, transparent 0%, black 350%),
                 url("images/rocket.jpg");
@@ -538,12 +573,12 @@ input {
 }
 
 .right_sect .sect_text {
-    margin-top: 120px;
-    margin-left: 20px;
+    margin-top: 24%;
+    margin-left: 4%;
 }
 
 .right_sect .sect_text h5 {
-    margin-top: 10px;
+    margin-top: 2.5%;
 }
 
 .right_sect .part_name {
@@ -551,7 +586,8 @@ input {
 }
 
 .right_sect .nav_links {
-    margin-top: 43px;
+    margin-top: 13%;
+    margin-left: 40%;
 }
 
 .right_sect .nav_button {
@@ -559,13 +595,13 @@ input {
 }
 
 .more_btn {
-    margin-bottom: 35px;
+    margin-bottom: 3.5%;
     display: flex;
     justify-content: center;
 }
 
 .more_btn .btn-primary {
-    margin-right: 15px;
+    margin-right: 1.5%;
 }
 
 .footer_sect {
@@ -579,49 +615,47 @@ input {
     border: 1px solid #d9d9d9;
     margin-bottom: 35px;
     width: 49.5%;
+    height: 100%;
 }
 
 .left_fsect {
-    margin-right: 15px;
-}
-
-.right_fsect {
+    margin-right: 1.5%;
 }
 
 .left_fsect img,
 .right_fsect img {
-    width: 180px;
-    height: 130px;
+    width: 37%;
+    height: 8.3em;
 }
 
 .footer_sect .sect_text {
-    margin: 15px 0 0 15px;
+    margin: 3% 0 0 3%;
 }
 
 .left_fsect h6 {
-    margin-bottom: 25px;
+    margin-bottom: 11%;
 }
 
 .footer_sect span,
 .footer_sect .part_name {
-    font-size: 10px;
+    font-size: 0.6em;
 }
 
 .footer_sect .part_name {
-    margin-left: 10px;
-    padding: 2px 10px;
+    margin-left: 4%;
+    padding: 1% 4%;
 }
 
 .footer_sect p {
-    font-size: 9px;
+    font-size: 0.56em;
     width: 92%;
-    margin-top: 3px;
-    margin-bottom: 7px;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .footer_sect .nav_links {
-    margin: 0 0 0 68px;
-    font-size: 10px;
+    margin-left: 23%;
+    font-size: 0.6em;
 }
 
 .pagination_sect,
@@ -635,21 +669,22 @@ input {
 .last_pgnt .container {
     display: flex;
     justify-content: center;
-    margin-bottom: 35px;
+    margin-bottom: 3.5%;
 }
 
 .pagination_sect .pgn_btn {
-    margin-bottom: 70px;
+    margin-bottom: 6%;
 }
 
 .pagination_sect img {
-    width: 237px;
-    height: 170px;
+    width: 100%;
+    height: 10.5em;
 }
 
 .pagination_sect .sect_text {
     width: 96%;
-
+    margin-left: 8%;
+    margin-top: 7%;
 }
 
 .pgnt_first,
@@ -662,8 +697,8 @@ input {
 .fourth_pgnt {
     width: 21.5%;
     border: 1px solid #d9d9d9;
-    margin-bottom: 35px;
-    margin-right: 15px;
+    margin-bottom: 3.5%;
+    margin-right: 1.4%;
     height: 100%;
 }
 
@@ -671,24 +706,20 @@ input {
     margin-right: 0;
 }
 
-.pagination_sect .nav_links {
-    margin: 25px 0 20px 5px;
+.container p {
+    width: 90%;
 }
 
-.pagination_sect .sect_text {
-    margin-left: 18px;
-    margin-top: 15px;
+.pagination_sect .nav_links {
+    margin: 5% 0 8% 3%;
 }
 
 .pgnt_b {
-    margin-left: 20px;
+    margin: 6% 0 6% 9%;
 }
 
 .pagination_sect .part_name {
-    background-color: #d9d9d9;
-    font-size: 12px;
-    padding: 2px 10px;
-    margin-left: 10px;
+    padding: 1% 6%;
 }
 
 .card_info .container {
@@ -701,23 +732,18 @@ input {
 }
 
 .logo_big {
-    width: 100px;
-    height: 190px;
-    margin: 30px 90px 15px;
+    width: 10%;
+    height: 10%;
+    margin: 3% 9% 1.5%;
 }
 
 .card_info h3 {
-    margin: 15px 0 35px;
+    margin: 1.5% 0 3.5%;
     font-weight: 500;
-    font-size: 26px;
-}
-
-.card_info p {
-    margin-bottom: 35px;
 }
 
 .card_cont p {
-    line-height: 15px;
+    margin-top: 11%;
 }
 
 .card_cont,
@@ -727,12 +753,12 @@ input {
 }
 
 .card_info .logo_medium {
-    margin: 30px 50px 30px;
+    margin: 7% 9% 7%;
 }
 
 .card_cont .sect_text {
-    width: 256px;
-    margin: 10px 5px 0 50px;
+    width: 53%;
+    margin: 4% 1% 0 9%;
 }
 
 .cont_left,
@@ -754,17 +780,21 @@ input {
 }
 
 .card_footer .logo_small {
-    height: 114px;
-    margin: 12px 35px 0px 35px;
+    height: 7em;
+    margin: 3% 7.5% 0 7.5%;
 }
 
 .card_footer .sect_text {
-    width: 335px;
+    width: 61%;
+}
+
+.footer_left h3 {
+    margin-top: 9%;
 }
 
 .footer_left,
 .footer_right {
-    height: 140px;
+    height: 8.7em;
     width: 49.3%;
 }
 
@@ -772,16 +802,18 @@ input {
     margin-top: 0;
 }
 
-.footer_right h3 {
-    margin-bottom: 20px;
+.footer_right p {
+    margin-top: 6%;
+    font-size: 0.9em;
 }
 
 .last_pgnt .container {
-    margin-bottom: 65px;
+    margin-bottom: 5%;
 }
 
 .last_pgnt .logo_big {
-    margin: 30px 65px 5px;
+    margin: 13% 0 4%;
+    width: 3em;
 }
 
 .first_pgnt,
@@ -789,7 +821,7 @@ input {
 .third_pgnt,
 .fourth_pgnt {
     text-align: center;
-    margin-right: 13.5px;
+    margin-right: 1.4%;
 }
 
 .fourth_pgnt {
@@ -798,28 +830,33 @@ input {
 
 .last_pgnt .sect_text {
     width: 97%;
-    margin-bottom: 35px;
+    margin-bottom: 13%;
+}
+
+.last_pgnt p {
+    margin: 9% 0 11% 6%;
+    font-size: 0.9em;
 }
 
 .footer_part {
     display: flex;
     justify-content: flex-start;
-    height: 225px;
+    height: 15em;
 }
 
 .company_bottom {
     display: flex;
     color: #ffffff;
-    max-height: 114px;
-    margin: 40px 20px 0 100px;
+    max-height: 7.5em;
+    margin: 3% 10% 0 9%;
 }
 
 .nav_footer {
     font-weight: 600;
-    letter-spacing: -1px;
-    font-size: 12px;
-    max-height: 70px;
-    margin-top: 55px;
+    letter-spacing: -0.07em;
+    font-size: 0.75em;
+    max-height: 30%;
+    margin-top: 4%;
 }
 
 .nav_footer .dropdown-menu {
@@ -827,7 +864,6 @@ input {
 }
 
 .nav_footer .dropdown-item {
-
     text-align: left;
 }
 
